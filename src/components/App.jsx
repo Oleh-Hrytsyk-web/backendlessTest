@@ -21,14 +21,14 @@ const App = () => {
         <Router>
             <Header>
                 {tabs.map((tab) => (
-                    <NavLink key={tab.id} to={`backendlessTest/${tab.id}`}>
+                    <NavLink key={tab.id} to={`/${tab.id}`}>
                         {tab.title}
                     </NavLink>
                 ))}
             </Header>
 
             <Routes>
-                <Route path='/backendlessTest' element={<Navigate to={`/backendlessTest/${tabs[0].id}`} replace />} />
+                <Route path='/' element={<Navigate to={`/${tabs[0].id}`} replace />} />
                 {tabs.map((tab) => (
                     <Route key={tab.id} path={tab.id} element={LazyComponent(tab.path)} />
                 ))}
