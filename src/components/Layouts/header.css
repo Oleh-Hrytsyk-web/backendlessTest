@@ -1,0 +1,29 @@
+header {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(54, 8, 8, 1) 100%);
+    box-shadow: 1px 18px 55px -19px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 18px 55px -19px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 18px 55px -19px rgba(0, 0, 0, 0.75);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+nav {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #fff;
+    transition: color 0.1s ease-in-out;
+}
+
+nav a:hover {
+    color: rgb(245, 235, 208);
+}
+
+
+nav a.active {
+    color: rgb(252, 176, 69);
+}
