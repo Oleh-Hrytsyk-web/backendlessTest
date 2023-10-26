@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbackendlesstest=self.webpackChunkbackendlesstest||[]).push([[880],{880:(e,t,s)=>{s.r(t),s.d(t,{default:()=>u});var n=s(294);const u=function(){return n.createElement("div",null,"Dummy List Content")}}}]);

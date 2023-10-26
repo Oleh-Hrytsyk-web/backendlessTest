@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbackendlesstest=self.webpackChunkbackendlesstest||[]).push([[796],{796:(e,n,t)=>{t.r(n),t.d(n,{default:()=>a});var l=t(294);const a=function(e){var n=e.path,a=(0,l.lazy)((function(){return t(413)("./".concat(n))}));return console.log(n),l.createElement(l.Suspense,{fallback:l.createElement("div",null,"Loading...")},l.createElement(a,null))}}}]);

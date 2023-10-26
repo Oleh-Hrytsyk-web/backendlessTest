@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbackendlesstest=self.webpackChunkbackendlesstest||[]).push([[538],{538:(e,t,n)=>{n.r(t),n.d(t,{default:()=>u});var s=n(294);const u=function(){return s.createElement("div",null,"Dummy Chart Content")}}}]);
